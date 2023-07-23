@@ -11,7 +11,12 @@ void main() {
     print("$j - do-while loop");
   } while (j < 10);
 
-  for (i = 0; i < 10; i++) {
-    print("$i - for loop");
+  for (int k = 0; k < 10; k++) {
+    print("$k - for loop");
+  }
+
+  //infinite loop
+  while (true) {
+    print('infinite while loop');
   }
 }
